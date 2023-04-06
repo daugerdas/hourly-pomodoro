@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState } from 'react';
 import Countdown from 'react-countdown';
 import './App.css';
 
@@ -32,16 +32,16 @@ function App() {
     }
 
     setTargetTimeCountdown(targetTime);
-    
+
     return () => {
       clearInterval(interval);
     };
   }, [currentMinute])
 
   return (
-    <div>
-      <Countdown date={targetTimeCountdown} key={targetTimeCountdown} />
-      <div>{session}</div>
+    <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 mt-5">
+      <div className="text-slate-500">{session}</div>
+      <div className="text-xl font-medium text-black"><Countdown date={targetTimeCountdown} key={targetTimeCountdown} /></div>
     </div>
   );
 }
