@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hourly-pomodoro/static/css/main.17a343b3.css",
+    "main.js": "/hourly-pomodoro/static/js/main.90b9b0c2.js",
+    "static/js/787.880037e8.chunk.js": "/hourly-pomodoro/static/js/787.880037e8.chunk.js",
+    "index.html": "/hourly-pomodoro/index.html",
+    "main.17a343b3.css.map": "/hourly-pomodoro/static/css/main.17a343b3.css.map",
+    "main.90b9b0c2.js.map": "/hourly-pomodoro/static/js/main.90b9b0c2.js.map",
+    "787.880037e8.chunk.js.map": "/hourly-pomodoro/static/js/787.880037e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17a343b3.css",
+    "static/js/main.90b9b0c2.js"
+  ]
+}
